@@ -11,3 +11,14 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  font-size: 25px;
+}
