@@ -1,0 +1,30 @@
+.wrap1 {
+  margin: 20px;
+  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 100px;
+  background: black;
+}
+
+.wrap1 div {
+  border: 5px solid rgb(38, 56, 171);
+  text-align: center;
+  padding: 5px;
+  background: rgb(215, 53, 111);
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrap2 {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 200px;
+  grid-gap: 5px;
+}
+
+.wrap2 div {
+  border: 5px solid rgb(88, 45, 28);
+}

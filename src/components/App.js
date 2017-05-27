@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import CssGrid1 from './CssGrid1'
+import CssGrid2 from './CssGrid2'
+
 const BasicExample = () => (
   <Router>
     <div>
@@ -44,7 +46,7 @@ const Ex1 = () => (
 
 const Ex2 = () => (
   <div>
-    <h2>2</h2>
+    <h2><CssGrid2 /></h2>
   </div>
 )
 
