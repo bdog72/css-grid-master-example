@@ -1,0 +1,12 @@
+.wrap3 {
+  margin: 20px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, 1fr 2fr);
+}
+
+.wrap3 div {
+  background: rgb(127, 91, 198);
+  border: 5px solid red;
+  border-radius: 5px;
+}
